@@ -1,5 +1,0 @@
-package org.junit.runner.notifcation;
-
-public class Failure {
-
-}
