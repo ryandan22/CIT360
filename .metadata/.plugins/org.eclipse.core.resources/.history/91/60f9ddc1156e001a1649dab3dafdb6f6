@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class queueExample {
+
+	public static void main(String[] args) {
+		//make pri queue
+		PriorityQueue<String> employeePriorityQueue = new PriorityQueue<>();
+
+		//add items to queue
+		employeePriorityQueue.add("John");
+		employeePriorityQueue.add("Susan");
+		employeePriorityQueue.add("Juan");
+		employeePriorityQueue.add("Maria");
+		employeePriorityQueue.add("Sean");
+		employeePriorityQueue.add("Mark");
+		employeePriorityQueue.add("Ryan");
+
+		//Remove items, dequeue
+		while (!employeePriorityQueue.isEmpty()) {
+			System.out.println(employeePriorityQueue.remove());
+
+		}
+	}
+
+}

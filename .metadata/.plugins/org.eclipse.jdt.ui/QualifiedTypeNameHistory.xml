@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.util.AbstractQueue"/>
+<fullyQualifiedTypeName name="examples.InventoryDAO"/>
 </qualifiedTypeNameHistroy>

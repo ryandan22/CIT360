@@ -1,0 +1,38 @@
+[
+	{
+		"size": 150,
+		"price": 310,
+		"name": "Office Chair",
+		"description": " Black leather standard office chair with lumbar support - perfect for any standard desk.",
+		"weight": 28,
+		"location": "Orlando",
+		"stock": 8
+	},
+	{
+		"size": 550,
+		"price": 1025,
+		"name": "Office Desk",
+		"description": "Standard office desk with upper storage. Espresso. 5ft x 3ft x 5ft.",
+		"weight": 400,
+		"location": "Tampa",
+		"stock": 4
+	},
+	{
+		"size": 50 ,
+		"price": 200,
+		"name": "Dual Monitor Mount",
+		"description": "Dual Monitor Mount, up to 24in. display size.",
+		"weight": 30,
+		"location": "Orlando",
+		"stock": 10
+	},
+	{
+		"size": 300 ,
+		"price": 350,
+		"name": "File Cabinet",
+		"description": "5 drawer office filing cabinet with lock.",
+		"weight": 100,
+		"location": "Tampa",
+		"stock": 3
+	}
+]

@@ -1,0 +1,66 @@
+import java.util.*;
+
+public class queueExample {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp1 = new Employee ("John", "Smith", "USA", "001");
+		Employee emp2 = new Employee ("Susan", "Taylor", "USA", "002");
+		Employee emp3 = new Employee ("Juan", "Gomez", "Mexico", "003");
+		Employee emp4 = new Employee ("Maria", "Lopez", "Mexico", "004");
+		Employee emp5 = new Employee ("Sean", "Nole", "Canada", "005");
+		Employee emp6 = new Employee ("Mark", "Applegate", "Canada", "006");
+		Employee emp7 = new Employee ("Ryan", "Danner", "USA", "007");
+		
+		//make pri queue
+		PriorityQueue<Employee> workers = new PriorityQueue<>();
+
+		workers.add(emp1);
+		workers.add(emp2);
+		workers.add(emp3);
+		workers.add(emp4);
+		workers.add(emp5);
+		workers.add(emp6);
+		workers.add(emp7);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		//make pri queue
+		PriorityQueue<String> employeePriorityQueue = new PriorityQueue<>();
+
+		//add items to queue
+		employeePriorityQueue.add("John");
+		employeePriorityQueue.add("Susan");
+		employeePriorityQueue.add("Juan");
+		employeePriorityQueue.add("Maria");
+		employeePriorityQueue.add("Sean");
+		employeePriorityQueue.add("Mark");
+		employeePriorityQueue.add("Ryan");
+
+		//Remove items, dequeue
+		while (!employeePriorityQueue.isEmpty()) {
+			System.out.println(employeePriorityQueue.remove());
+
+		}
+	}
+
+}

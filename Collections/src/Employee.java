@@ -74,4 +74,14 @@ public class Employee implements Comparator<Employee> {
 			return descriptionA.compareTo(descriptionB);
 		}
 
+		public static boolean isEmpty() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		public static boolean isEmpty1() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
 	}

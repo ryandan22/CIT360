@@ -1,0 +1,72 @@
+import java.util.*;
+
+public class treeExample {
+
+	public static void main(String[] args) {
+	
+		Employee emp1 = new Employee ("John", "Smith", "USA", "001");
+		Employee emp2 = new Employee ("Susan", "Taylor", "USA", "002");
+		Employee emp3 = new Employee ("Juan", "Gomez", "Mexico", "003");
+		Employee emp5 = new Employee ("Sean", "Nole", "Canada", "005");
+		Employee emp6 = new Employee ("Mark", "Applegate", "Canada", "006");
+		Employee emp7 = new Employee ("Ryan", "Danner", "USA", "007");
+		Employee emp4 = new Employee ("Maria", "Lopez", "Mexico", "004");
+		
+		Employee compareEmployees = new Employee();
+		
+		TreeSet <Employee> workers = new TreeSet <Employee>(compareEmployees);
+		
+		workers.add(emp6);
+		workers.add(emp2);
+		workers.add(emp3);
+		workers.add(emp4);
+		workers.add(emp5);
+		workers.add(emp1);
+		workers.add(emp7);
+		
+		for(Employee employ: workers) {
+        	System.out.println(employ.getLast_name());
+        }
+        
+        // Check to see if the Tree is empty or not
+    	if (Employee.isEmpty()) {
+    		System.out.print("\n Tree Set is empty.");
+    	} else {
+    		System.out.println("\n Tree Set size: " + employees.size());
+    	}
+    	
+    	// Retrieve first data from tree set
+    	System.out.println("\n First Employee: " + workers.first().getLast_name());
+    	
+    	// Retrieve last data from tree set
+    	System.out.println("\n Last Employee: " + workers.last().getLast_name());
+    	
+    	// We will remove the data from the tree set. 
+    	if (workers.remove(emp6)) { // remove element by value
+    		System.out.println("\n" + emp6.getLast_name() + " employee is removed from tree set");
+    	} else {
+    		System.out.println("\n Data doesn't exist!");
+    	}
+    	
+    	if (workers.isEmpty()) {
+    		System.out.print("\n Tree Set is empty.");
+    	} else {
+    		System.out.println("\n Now the tree set contain: " + Employee.size()+"\n");
+    	}
+    	
+    	for(Employee employ: employee) {
+        	System.out.println(employ.getLast_name());
+        }
+    	
+    	// Remove all the data in the tree set.
+    	employees.clear();
+    	if (employees.isEmpty()) {
+    		System.out.print("\nTree Set is empty.");
+    	} else {
+    		System.out.println("\nTree Set size: " + employees.size());
+    		
+    	}
+
+	}     
+
+}

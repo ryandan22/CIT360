@@ -32,7 +32,7 @@ public class treeExample {
     	if (Employee.isEmpty()) {
     		System.out.print("\n Tree Set is empty.");
     	} else {
-    		System.out.println("\n Tree Set size: " + mployees.size());
+    		System.out.println("\n Tree Set size: " + employees.size);
     	}
     	
     	// Retrieve first data from tree set

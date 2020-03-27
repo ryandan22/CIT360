@@ -8,7 +8,7 @@ public class threadSynchronization {
 
 	public static void main(String[] args) {
 
-		Stream<String> flow = Stream.of("tarea1", "tarea2", "tarea3");
+		Stream<String> flow = Stream.of("work1", "work2", "work3");
 
 		ExecutorService service = Executors.newCachedThreadPool();
 

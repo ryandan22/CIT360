@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class queueExample {
+
+	public static void main(String[] args) {
+	
+		Employee emp1 = new Employee ("John", "Smith", "USA", "001");
+		Employee emp2 = new Employee ("Susan", "Taylor", "USA", "002");
+		Employee emp3 = new Employee ("Juan", "Gomez", "Mexico", "003");
+		Employee emp4 = new Employee ("Maria", "Lopez", "Mexico", "004");
+		Employee emp5 = new Employee ("Sean", "Nole", "Canada", "005");
+		Employee emp6 = new Employee ("Mark", "Applegate", "Canada", "006");
+		Employee emp7 = new Employee ("Ryan", "Danner", "USA", "007");
+		
+		Queue<Employee> workers = new LinkedList<Employee>();
+		
+		workers.add(emp1);
+		workers.add(emp2);
+		workers.add(emp3);
+		workers.add(emp4);
+		workers.add(emp5);
+		workers.add(emp6);
+		workers.add(emp7);
+	
+		System.out.println(workers() + "\n");
+		
+		ListIterator<Employee> it=((AbstractList<Employee>) workers).listIterator();
+		
+		}
+	}
